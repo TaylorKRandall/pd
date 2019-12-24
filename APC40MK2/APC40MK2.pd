@@ -1,0 +1,23 @@
+#N canvas 2029 160 653 633 12;
+#X obj 167 301 hradio 27 1 0 8 empty setCh ch._1-8 10 -8 0 10 -262144
+-1 -1 0;
+#X obj 386 220 vradio 27 1 0 4 empty empty empty 0 -8 0 10 -262144
+-1 -1 0;
+#X text 421 225 off;
+#X text 421 251 single;
+#X text 421 304 pan;
+#X text 421 278 volume;
+#X obj 167 489 hradio 27 1 0 8 empty empty DevCont._1-8 10 -8 0 10
+-262144 -1 -1 0;
+#X obj 386 408 vradio 27 1 0 4 empty empty empty 0 -8 0 10 -262144
+-1 -1 0;
+#X text 421 413 off;
+#X text 421 439 single;
+#X text 421 492 pan;
+#X text 421 466 volume;
+#X obj 169 349 r setCh;
+#X obj 324 530 r setDev;
+#X msg 169 373 \$1;
+#X floatatom 169 397 5 0 0 0 - - -;
+#X connect 12 0 14 0;
+#X connect 14 0 15 0;

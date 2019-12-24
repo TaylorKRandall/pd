@@ -1,0 +1,15 @@
+#N canvas 2496 -385 669 522 12;
+#X obj 86 35 r setCh;
+#X obj 26 35 r chMode;
+#X obj 226 35 r setDev;
+#X obj 159 35 r devMode;
+#X obj 131 111 ctlout;
+#X obj 226 57 + 24;
+#X obj 86 57 + 56;
+#X text 23 17 sends cc message to set LED ring type;
+#X connect 0 0 6 0;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 5 0 4 1;
+#X connect 6 0 4 1;
