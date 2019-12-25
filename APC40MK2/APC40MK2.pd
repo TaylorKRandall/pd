@@ -1,17 +1,23 @@
-#N canvas 1474 50 653 633 12;
-#X obj 167 301 hradio 27 1 0 8 setCh setCh ch._1-8 10 -8 0 10 -262144
--1 -1 0;
-#X obj 386 220 vradio 27 1 0 4 chMode chMode empty 0 -8 0 10 -262144
+#N canvas 1473 50 653 633 12;
+#X obj 167 301 hradio 27 1 0 8 empty empty ch._1-8 10 -8 0 10 -262144
+-1 -1 2;
+#X obj 386 220 vradio 27 1 0 4 empty empty empty 0 -8 0 10 -262144
 -1 -1 1;
 #X text 421 225 off;
 #X text 421 251 single;
 #X text 421 304 pan;
 #X text 421 278 volume;
-#X obj 167 489 hradio 27 1 0 8 setDev setDev DevCont._1-8 10 -8 0 10
--262144 -1 -1 0;
-#X obj 386 408 vradio 27 1 0 4 devMode devMode empty 0 -8 0 10 -262144
+#X obj 167 489 hradio 27 1 0 8 empty empty DevCont._1-8 10 -8 0 10
+-262144 -1 -1 7;
+#X obj 386 408 vradio 27 1 0 4 empty empty empty 0 -8 0 10 -262144
 -1 -1 1;
 #X text 421 413 off;
 #X text 421 439 single;
 #X text 421 492 pan;
 #X text 421 466 volume;
+#X obj 167 332 knobMode;
+#X obj 167 522 knobMode;
+#X connect 0 0 12 0;
+#X connect 1 0 12 1;
+#X connect 6 0 13 2;
+#X connect 7 0 13 3;
